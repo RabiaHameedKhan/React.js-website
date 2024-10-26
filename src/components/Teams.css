@@ -1,0 +1,60 @@
+.team-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .team-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .team-member {
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Transparent border */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%; /* Ensure it takes up grid column space */
+    aspect-ratio: 1; /* Makes it a square */
+  }
+  
+  .team-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%); /* Black and white filter */
+    transition: filter 0.3s ease;
+  }
+  
+  .team-member:hover .team-image {
+    filter: grayscale(0%); /* Remove black and white on hover */
+  }
+  
+  .team-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Grey transparent background */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .member-name {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .member-role {
+    font-size: 1rem;
+    margin: 0;
+    font-style: italic;
+  }
+  

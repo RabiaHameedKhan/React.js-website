@@ -1,0 +1,114 @@
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-image {
+    max-width: 100%;
+    width: 400px;
+    height: 600px;
+    border-radius: 8px; /* Optional: Add some styling to the image */
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 80%; /* Adjust based on your layout preference */
+  }
+  
+
+
+  .grid-box {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition on hover */
+  }
+
+
+  
+  .grid-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+  }
+  
+  .box-heading {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .box-button {
+    margin-top: 10px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust for rectangular shape */
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+
+  
+  .call-icon {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for icon */
+    margin-bottom: 10px;
+  }
+  
+  .box-heading {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .box-paragraph {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+    line-height: 1.5;
+    max-width: 80%; /* Optional: Control width for readability */
+  }
+  .headphone-icon {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for icon */
+    margin-bottom: 10px;
+  }
+  .cloud-icon {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for icon */
+    margin-bottom: 10px;
+  }
+      
+  

@@ -1,0 +1,65 @@
+/* Hero Section Styling */
+.hero-section {
+  width: 100%;
+  height: calc(100vh - 60px); /* Adjust for navbar height */
+  overflow: hidden; /* Ensure no overflow */
+  margin-top: 60px; /* This may not be necessary if the navbar is fixed */
+}
+
+
+.carousel-bg {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-caption {
+  color: black;
+  text-align: center;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption h2 {
+      font-size: 2rem;
+  }
+
+  .hero-button {
+      font-size: 1rem;
+      padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel-caption h2 {
+      font-size: 1.5rem;
+  }
+
+  .hero-button {
+      font-size: 0.9rem;
+      padding: 6px 12px;
+  }
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed; /* Make navbar fixed */
+  top: 0;
+  width: 100%;
+  z-index: 10; /* Ensure it's on top of hero section */
+}
