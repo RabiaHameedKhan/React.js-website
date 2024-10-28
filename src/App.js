@@ -3,7 +3,6 @@ import React from 'react';
 import './index.css';  
 import Navbar from './components/Navbar/Navbar'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import HeroSection from './components/HeroSection';
 import BottomSection from './components/BottomSection/Bottom';
 import Section1 from './components/Section1/section1';
 import ProjectSection from './components/Projects/Project';

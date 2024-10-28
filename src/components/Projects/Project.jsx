@@ -14,6 +14,9 @@ const ProjectSection = () => {
       <p className="section-paragraph">
       In our portfolio, you can browse the latest products developed for our clients for different corporate purposes. Our qualified team of interface designers and software developers is always ready to create something unique for you
       </p>
+      <p className="section-paragraph">
+      In our portfolio, you can browse the latest products developed for our clients for different corporate purposes. Our qualified team of interface designers and software developers is always ready to create something unique for you
+      </p>
       <div className="inline-headings">
         <h2 className="small-heading">All |</h2>
         <h2 className="small-heading">Mobile Apps |</h2>
