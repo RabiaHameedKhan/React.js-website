@@ -1,6 +1,11 @@
 import React from 'react';
-import './project.css'; // Ensure you create and import the CSS file
-// import image from '../../Images/carousel1.jpg'
+import './project.css'; 
+import mobile1 from '../../Images/mobile1.jpg'
+import mobile2 from '../../Images/mobile2.jpg'
+import cs1 from '../../Images/cs1.jpg'
+import cs2 from '../../Images/cs2.jpg'
+import qa1 from '../../Images/qa1.jpg'
+import qa2 from '../../Images/qa2.jpg'
 
 const ProjectSection = () => {
   return (
@@ -18,15 +23,15 @@ const ProjectSection = () => {
       </div>
       <div className="project-grid">
         <div className="project-box">
-          {/* <img src={image} alt="project image"/> */}
+          <img src={mobile1} alt="project image"/>
         </div>
-        <div className="project-box">Image 2</div>
-        <div className="project-box">Image 3</div>
-        <div className="project-box">Image 4</div>
-        <div className="project-box">Image 5</div>
-        <div className="project-box">Image 6</div>
-        <div className="project-box">Image 7</div>
-        <div className="project-box">Image 8</div>
+        <div className="project-box"><img src={mobile2} alt="project image"/></div>
+        <div className="project-box"><img src={cs1} alt="project image"/></div>
+        <div className="project-box"><img src={cs2} alt="project image"/></div>
+        <div className="project-box"><img src={qa1} alt="project image"/></div>
+        <div className="project-box"><img src={qa2} alt="project image"/></div>
+        <div className="project-box"><img src={mobile1} alt="project image"/></div>
+        <div className="project-box"><img src={mobile2} alt="project image"/></div>
       </div>
     </div>
   );

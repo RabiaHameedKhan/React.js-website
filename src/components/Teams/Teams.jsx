@@ -1,9 +1,9 @@
 import React from 'react';
-import './Teams.css'; // Ensure you create and import the CSS file
-import image1 from '../Images/team1.jpg'
-import image2 from '../Images/team2.jpg'
-import image3 from '../Images/team3.jpg'
-import image4 from '../Images/team4.jpg'
+import './Teams.css'; 
+import image1 from '../../Images/team1.jpg'
+import image2 from '../../Images/team2.jpg'
+import image3 from '../../Images/team3.jpg'
+import image4 from '../../Images/team4.jpg'
 
 
 const TeamSection = () => {

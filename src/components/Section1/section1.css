@@ -1,5 +1,5 @@
 .section-1 {
-  background-image: url('../Images/section1.jpg');
+  background-image: url('../../Images/section1.jpg');
   background-size: cover;
   background-position: center;
   color: white;

@@ -1,45 +1,54 @@
 .project-section {
-    padding: 40px 20px;
-    text-align: center;
-  }
-  
-  .main-heading {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  .section-paragraph {
-    margin-bottom: 30px;
-    line-height: 1.5;
-    max-width: 800px; /* Optional: Control width for readability */
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .inline-headings {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* Space between headings */
-    margin-bottom: 30px;
-  }
-  
-  .small-heading {
-    font-size: 1.2rem;
-  }
-  
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 images in a row */
-    gap: 20px; /* Space between boxes */
-  }
-  
-  .project-box {
-    background-color: #eee; /* Placeholder color */
-    height: 200px; /* Adjust as needed for your images */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  }
-  
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section-paragraph {
+  margin-bottom: 30px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-headings {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.small-heading {
+  font-size: 1.2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.project-box {
+  position: relative;
+  background-color: #eee;
+  width: 100%;
+  height: 80%;
+  aspect-ratio: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}

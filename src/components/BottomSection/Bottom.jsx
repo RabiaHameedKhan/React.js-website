@@ -1,6 +1,6 @@
 import React from "react";
 import "./BottomSection.css"; // Import your CSS file for styling
-import image from './../Images/bottomsection.jpg'
+import image from '../../Images/bottomsection.jpg'
 
 const BottomSection = () => {
   return (
