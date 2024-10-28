@@ -53,7 +53,7 @@
   background-color: transparent;
   height: 100px;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   border-width: 1px;
@@ -68,7 +68,7 @@
 }
 
 .small-box h3 {
-  margin: 5px 0 0 0; /* Small space above h3 */
+  margin: 5px 0 0 0; 
   font-size: 1rem;
   color: grey;
 }
