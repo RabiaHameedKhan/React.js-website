@@ -8,6 +8,7 @@ import Section1 from './components/Section1/section1';
 import ProjectSection from './components/Projects/Project';
 import Section2 from './components/Section2/Section2';
 import Teams from './components/Teams/Teams';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <ProjectSection/>
       <Section2/>
       <Teams/>
+      <Testimonials/>
 
     
    </>
