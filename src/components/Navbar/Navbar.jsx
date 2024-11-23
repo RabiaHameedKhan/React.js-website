@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h2>My Website</h2>
+        <h2>Rather App</h2>
       </div>
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
         <li><a href="#home">Home</a></li>
